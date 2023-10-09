@@ -1,0 +1,19 @@
+.sony-bar{
+    background-color: #000000;
+    height: 36px;
+    display: flex;
+    align-items: stretch;
+    justify-content: end;
+}
+
+.sony-link{
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.sony-logo{
+    width: 75px;
+    height: auto;
+    
+}

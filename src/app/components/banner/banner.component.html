@@ -1,0 +1,18 @@
+<section class="banner-area">
+    <div class="banner-content" [ngStyle]="{backgroundImage:'url('+coverBanner+')'}">
+        <div class="content-left">
+            <img src="{{contentLeft}}" alt="#" *ngIf="showLeft">
+        </div>
+        <div class="content-right">
+            <img src="{{contentRight}}" alt="#" *ngIf="showRight">
+        </div>
+    </div>
+    <div class="banner-footer">
+        <div class="baner-text">
+            <span>{{bannerText}}</span>
+        </div>
+        <div class="banner-button">
+            <button>{{bannerTextButton}}</button>
+        </div>
+    </div>
+</section>

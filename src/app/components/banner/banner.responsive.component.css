@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1544px) {
+    .banner-content{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .banner-content{
+        height: 375px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .banner-content{
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .banner-content{
+        height: 325px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-content{
+        height: 300px;
+    }
+}

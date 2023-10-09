@@ -7,6 +7,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { SonyBarComponent } from './components/sony-bar/sony-bar.component';
+import { StoreNavbarComponent } from './components/store-navbar/store-navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { SonyBarComponent } from './components/sony-bar/sony-bar.component';
     HomeComponent,
     CardComponent,
     MenuBarComponent,
-    SonyBarComponent
+    SonyBarComponent,
+    StoreNavbarComponent,
+    FooterComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,22 @@
+.see-more_list{
+    margin-left: 35px;
+    list-style: none;
+    width: 95%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    >li{
+        width: calc(25.3vw - 40.3px);
+        max-width: calc(25.3vw - 40.3px);
+    }
+}
+
+.title_see-more{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    >h2{
+        font-size: 22px;
+        font-weight: 100;
+    }
+}

@@ -10,6 +10,10 @@ import { SonyBarComponent } from './components/sony-bar/sony-bar.component';
 import { StoreNavbarComponent } from './components/store-navbar/store-navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { BigShowcaseComponent } from './components/big-showcase/big-showcase.component';
+import { ShowcaseComponent } from './components/showcase/showcase.component';
+import { ItemShowcaseComponent } from './components/item-showcase/item-showcase.component';
+import { SeeMoreComponent } from './components/see-more/see-more.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { BannerComponent } from './components/banner/banner.component';
     SonyBarComponent,
     StoreNavbarComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    BigShowcaseComponent,
+    ShowcaseComponent,
+    ItemShowcaseComponent,
+    SeeMoreComponent
   ],
   imports: [
     BrowserModule,

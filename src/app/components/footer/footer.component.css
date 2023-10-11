@@ -1,0 +1,55 @@
+.footer_area{
+    background-color: #003697;
+    padding: 0 2.25rem;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer_hearder, .region_country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_hearder{
+    padding: 2.25rem 0;
+}
+
+.logo_playstation img{
+    width: 40px;
+    height: 40px;
+}
+
+.icon_region {
+    margin-left: 2.5rem;
+    >img{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.language{
+    margin-left: 5px;
+    
+}
+
+.footer_mid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    >.map_site{
+        list-style: none;
+        margin-left: 8px;
+    }
+}
+
+.item_link{
+    padding: 8px 0;
+}
+
+.footer_botton{
+    margin: 0 2.5rem;
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

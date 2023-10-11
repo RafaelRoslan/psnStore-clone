@@ -8,11 +8,16 @@
         </div>
     </div>
     <div class="banner-footer">
-        <div class="baner-text">
+        <div class="banner-text">
             <span>{{bannerText}}</span>
         </div>
         <div class="banner-button">
             <button>{{bannerTextButton}}</button>
         </div>
+    </div>
+    <div class="banner_footer-text" *ngIf="showtext">
+        <span>
+            {{bannerFooterText}}
+        </span>
     </div>
 </section>

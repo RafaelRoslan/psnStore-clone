@@ -16,7 +16,10 @@ export class BannerComponent implements OnInit {
   bannerText:string ="";
   @Input()
   bannerTextButton:string ="";
+  @Input()
+  bannerFooterText:string ="";
 
+  showtext:boolean = true;
   showLeft:boolean = true;
   showRight:boolean = true;
 
@@ -28,6 +31,9 @@ export class BannerComponent implements OnInit {
     }
     if(this.contentLeft == ""){
       this.showLeft = false;
+    }
+    if(this.bannerFooterText == ""){
+      this.showtext = false;
     }
   }
 

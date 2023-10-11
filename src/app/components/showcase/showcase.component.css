@@ -1,0 +1,41 @@
+.showcase_area{
+    margin: 0 35px;
+    padding-right: 8px;
+}
+
+.showcase_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >h2{
+        font-size: 1.37rem;
+        font-weight: 200;
+    }
+}
+
+.link_header{
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #0070cc;
+    font-size: .87rem;
+    font-weight: 700;
+    transition: .4s;
+    border-radius: 2rem;
+    &:hover{
+        background-color: #e3e3e4;
+    }
+}
+
+.showcase-list{
+    margin-top: 5px;
+    padding: 10px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow: hidden;
+
+    >li{
+        min-width: 200px;
+    }
+}
